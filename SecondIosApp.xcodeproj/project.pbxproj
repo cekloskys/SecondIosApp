@@ -18,6 +18,8 @@
 		9C3F20DF235F446F005AC4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F20DE235F446F005AC4DF /* Assets.xcassets */; };
 		9C3F20E2235F446F005AC4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F20E0235F446F005AC4DF /* LaunchScreen.storyboard */; };
 		9C3F20EA235F4B19005AC4DF /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F20E9235F4B19005AC4DF /* Jokes.swift */; };
+		9CBA92E4236878D300BB8800 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA92E3236878D300BB8800 /* NewViewController.swift */; };
+		9CBA92E62368812500BB8800 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA92E52368812500BB8800 /* NewTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		9C3F20E1235F446F005AC4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3F20E3235F446F005AC4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3F20E9235F4B19005AC4DF /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		9CBA92E3236878D300BB8800 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		9CBA92E52368812500BB8800 /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				9C2988DA2361E1E00021A404 /* Fluffy.png */,
 				9C2988DD2361E1E00021A404 /* Munchie.png */,
 				9C2988DC2361E1E00021A404 /* Squido.png */,
+				9CBA92E3236878D300BB8800 /* NewViewController.swift */,
+				9CBA92E52368812500BB8800 /* NewTableViewController.swift */,
 			);
 			path = SecondIosApp;
 			sourceTree = "<group>";
@@ -159,6 +165,8 @@
 			files = (
 				9C3F20DA235F446E005AC4DF /* ViewController.swift in Sources */,
 				9C3F20D6235F446E005AC4DF /* AppDelegate.swift in Sources */,
+				9CBA92E62368812500BB8800 /* NewTableViewController.swift in Sources */,
+				9CBA92E4236878D300BB8800 /* NewViewController.swift in Sources */,
 				9C3F20EA235F4B19005AC4DF /* Jokes.swift in Sources */,
 				9C3F20D8235F446E005AC4DF /* SceneDelegate.swift in Sources */,
 			);
